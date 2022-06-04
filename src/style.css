@@ -1,0 +1,62 @@
+.main__container{
+    max-width: 500px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.head__container{
+    background-color: blueviolet;
+}
+
+.input__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+}
+.input__container input{
+    display: flex;
+    margin:auto;
+    width: 95%;
+    height: 30px;
+}
+.input__container button{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+.output__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.output__container p{
+    margin-left: 10px;
+}
+.output__container section button{
+    margin-right: 5px;
+}
+
+.btn__delete{
+    background-color: red;
+    cursor: pointer;
+}
+
+.btn__done{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.done__class{
+    background-color: aqua;
+}
